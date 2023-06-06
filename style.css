@@ -72,8 +72,28 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
+  .left{
+    display: flex;
+    font-size: 25px;
+  }
   
+  .dp{
+    height: 2.5em;
+    border-radius: 50%;
+  }
+  .btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 8px 23px;
+    border-radius: 40px;
+    background-color: #393f4d;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
   
+  .btn:hover {
+    background-color: #999;
+  }
   .nav ul li {
     font-size: 16px;
     text-transform: uppercase;
